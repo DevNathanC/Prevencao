@@ -102,12 +102,6 @@ ul .itensLista{
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 768px){
-    .listas{
-        font-size: 1rem;
-    }
-}
-
 @media screen and (max-width: 1080px){
     .listas{
         font-size: 1rem;
