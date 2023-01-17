@@ -104,13 +104,13 @@ ul .itensLista{
 
 @media screen and (max-width: 768px){
     .listas{
-        font-size: .5rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 1080px){
     .listas{
-        font-size: .5rem;
+        font-size: 1rem;
     }
 }
 
