@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <title>Prevenção listas</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Prevenção</h1>
+    </header>
+    
+    <main class="container">
+        <div class="listas">
+            <h2>Vencidos</h2>
+            <ul id="lista1">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal1">Adicionar</button>
+            <dialog class="modal" id="modal1">
+                <button id="fecharModal1" class="fecharModal">Fechar</button>
+                <h2 class="tituloModal">Registrar Produto</h2>
+                <form action="" id="form1" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade">
+                    <label for="item">Data</label>
+                    <input type="date" name="data" id="data">
+                    <input type="submit" value="adicionar" id="cadastrarLista1" class="cadastrar">
+                </form>
+            </dialog>
+        </div>
+
+        <div class="listas">
+            <h2>Próximo do Vencimento</h2>
+            <ul id="lista2">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal2">Adicionar</button>
+            <dialog class="modal" id="modal2">
+             <button id="fecharModal2" class="fecharModal">Fechar</button>
+             <h2 class="tituloModal">Registrar Produto</h2>
+             <form action="" id="novoItem2" class="adicionar">
+             <label for="item">Código</label>
+                <input type="number" name="codigo" id="codigo">
+                <label for="item">Quantidade</label>
+                <input type="number" name="quantidade" id="quantidade">
+                <label for="item">Data</label>
+                <input type="date" name="data" id="data">
+                <input type="submit" value="Adicionar" class="cadastrar">
+            </form>
+        </dialog>
+        
+        </div>
+    
+        <div class="listas">
+            <h2>À Vencer</h2>
+            <ul id="lista3">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal3">Adicionar</button>
+            <dialog class="modal" id="modal3">
+                <button id="fecharModal3" class="fecharModal">Fechar</button>
+                <h2 class="tituloModal">Registrar Produto</h2>
+                <form action="" id="novoItem3" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade">
+                    <label for="item">Data</label>
+                    <input type="date" name="data" id="data">
+                    <input type="submit" value="Adicionar" class="cadastrar">
+                </form>
+            </dialog>  
+        </div>
+        
+        <div class="listas">
+            <h2>Vencidos Kg</h2>
+            <ul id="lista4">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal4">Adicionar</button>
+            <dialog class="modal" id="modal4">
+            <button id="fecharModal4" class="fecharModal">Fechar</button>
+                <h2 class="tituloModal">Registrar Produto</h2>
+                <form action="" id="novoItem4" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Quantidade</label>
+                    <input type="number" step=".001" name="quantidade" id="quantidade">
+                    <label for="item">Data</label>
+                    <input type="date" name="data" id="data">
+                    <input type="submit" value="Adicionar" class="cadastrar">
+                </form>
+             </dialog>
+            
+        </div>
+        
+        <div class="listas">
+            <h2>Vencidos no dia</h2>
+            <ul id="lista5">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal5">Adicionar</button>
+            <dialog class="modal" id="modal5">
+                <button id="fecharModal5" class="fecharModal">Fechar</button>
+             <h2 class="tituloModal">Registrar Produto</h2>
+                <form action="" id="novoItem5" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade">
+                    <label for="item">Data</label>
+                    <input type="date" name="data" id="data">
+                    <input type="submit" value="Adicionar" class="cadastrar">
+                </form>
+             </dialog> 
+        </div>
+
+        <div class="listas">
+            <h2>Sem condições de vendas</h2>
+            <ul id="lista6">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal6">Adicionar</button>
+            <dialog class="modal" id="modal6">
+                <button id="fecharModal6" class="fecharModal">Fechar</button>
+             <h2 class="tituloModal">Registrar Produto</h2>
+                <form id="novoItem6" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade">
+                    <label for="item">Motivo</label>
+                    <input type="text" name="data" id="data">
+                    <input type="submit" value="Adicionar" class="cadastrar">
+                </form>
+             </dialog> 
+        </div>
+
+        <div class="listas">
+            <h2>Divergencias de Peso</h2>
+            <ul id="lista7">
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+                <li class="itensLista"></li>
+            </ul>
+            <button id="abrirModal7">Adicionar</button>
+            <dialog class="modal" id="modal7">
+                <button id="fecharModal7" class="fecharModal">Fechar</button>
+             <h2 class="tituloModal">Registrar Produto</h2>
+                <form id="novoItem7" class="adicionar">
+                    <label for="item">Código</label>
+                    <input type="number" name="codigo" id="codigo">
+                    <label for="item">Peso etiqueta</label>
+                    <input type="number" step=".001" name="quantidade" id="quantidade">
+                    <label for="item">Tara</label>
+                    <input type="number" step=".001" name="data" id="data">
+                    <label for="item">Peso encontrado</label>
+                    <input type="number" step=".001" name="data" id="data">
+                    <input type="submit" value="Adicionar" class="cadastrar">
+                </form>
+             </dialog> 
+        </div>
+    
+</main>
+<script src="js/main.js"></script>
+<script src="js/vencidos.js"></script>
+<script src="js/proximoDoVencimento.js"></script>
+<script src="js/aVencer.js"></script>
+<script src="js/vencidoKg.js"></script>
+<script src="js/vencidosNoDia.js"></script>
+<script src="js/semCondicoesDeVenda.js"></script>
+<script src="js/divergenciaDePeso.js"></script>
+</body>
+</html>

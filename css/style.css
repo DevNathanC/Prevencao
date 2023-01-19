@@ -1,0 +1,117 @@
+:root {
+    --cabecalho: #8B111E;
+    --main-background: #27312B ;
+    --rodape: #090E0D;
+    --back-listas: #AE2130;
+
+  }
+  
+.cabecalho{
+    background: var(--cabecalho);
+    height: 5rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 0.3rem solid black;
+}
+
+.container{
+    background-image: url(../src/background\ main.png);
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listas{
+    background-color: rgb(64, 0, 0, 0.9);
+    display: flex;
+    box-sizing: border-box;
+    height: min-content;
+    width: 25rem;
+    flex-direction: column;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.listas h2{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0.3rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #40112D;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: #00bb3e;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.listas button{
+    background: wheat ;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 1.2rem;
+    margin:0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.listas .botaoDelete{
+    background: red;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    margin: 0px;
+    font-size: 12px;
+    color: white;
+
+
+
+}
+
+ul .itensLista{
+    border-bottom: solid 2px gray; 
+}
+
+.rodape{
+    height: 3rem;
+    background: var(--rodape);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 1080px){
+    .listas{
+        font-size: 1rem;
+    }
+}
+
